@@ -12,8 +12,8 @@ newmtl 08___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka https://github.com/mayorian/3dmodels/edit/master/IndustryHall/btn.jpg
-	map_Kd https://github.com/mayorian/3dmodels/edit/master/IndustryHall/btn.jpg
+	map_Ka https://raw.githubusercontent.com/mayorian/3dmodels/master/IndustryHall/btn.jpg
+	map_Kd https://raw.githubusercontent.com/mayorian/3dmodels/master/IndustryHall/btn.jpg
 
 newmtl 07___Default
 	Ns 10.0000
@@ -26,8 +26,8 @@ newmtl 07___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka https://github.com/mayorian/3dmodels/edit/master/IndustryHall/mtl1.jpg
-	map_Kd https://github.com/mayorian/3dmodels/edit/master/IndustryHall/mtl1.jpg
+	map_Ka https://raw.githubusercontent.com/mayorian/3dmodels/master/IndustryHall/mtl1.jpg
+	map_Kd https://raw.githubusercontent.com/mayorian/3dmodels/master/IndustryHall/mtl1.jpg
 
 newmtl 09___Default
 	Ns 10.0000
@@ -40,5 +40,5 @@ newmtl 09___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka https://github.com/mayorian/3dmodels/edit/master/IndustryHall/mtlwall.jpg
-	map_Kd https://github.com/mayorian/3dmodels/edit/master/IndustryHall/mtlwall.jpg
+	map_Ka https://raw.githubusercontent.com/mayorian/3dmodels/master/IndustryHall/mtlwall.jpg
+	map_Kd https://raw.githubusercontent.com/mayorian/3dmodels/master/IndustryHall/mtlwall.jpg
