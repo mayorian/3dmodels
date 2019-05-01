@@ -1,0 +1,44 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 01.05.2019 23:17:38
+
+newmtl 08___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\===Tuke===\PHD\KPi a LIRKIS materialy\COLLABORATIVE\IndustryHall\btn.jpg
+	map_Kd D:\===Tuke===\PHD\KPi a LIRKIS materialy\COLLABORATIVE\IndustryHall\btn.jpg
+
+newmtl 07___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\===Tuke===\PHD\KPi a LIRKIS materialy\COLLABORATIVE\IndustryHall\mtl1.jpg
+	map_Kd D:\===Tuke===\PHD\KPi a LIRKIS materialy\COLLABORATIVE\IndustryHall\mtl1.jpg
+
+newmtl 09___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\===Tuke===\PHD\KPi a LIRKIS materialy\COLLABORATIVE\IndustryHall\mtlwall.jpg
+	map_Kd D:\===Tuke===\PHD\KPi a LIRKIS materialy\COLLABORATIVE\IndustryHall\mtlwall.jpg
