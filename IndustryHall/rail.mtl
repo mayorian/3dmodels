@@ -1,5 +1,5 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 12.05.2019 01:55:38
+# File Created: 12.05.2019 01:57:12
 
 newmtl 08___Default
 	Ns 10.0000
@@ -57,7 +57,7 @@ newmtl 07___Default
 	map_Ka mtl1.jpg
 	map_Kd mtl1.jpg
 
-newmtl 17___Default
+newmtl 14___Default
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -68,8 +68,8 @@ newmtl 17___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka vozen8.jpg
-	map_Kd vozen8.jpg
+	map_Ka vozen2.jpg
+	map_Kd vozen2.jpg
 
 newmtl 15___Default
 	Ns 10.0000
@@ -113,6 +113,20 @@ newmtl 10___Default
 	map_Ka pipe.jpg
 	map_Kd pipe.jpg
 
+newmtl 17___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka vozen8.jpg
+	map_Kd vozen8.jpg
+
 newmtl 16___Default
 	Ns 10.0000
 	Ni 1.5000
@@ -126,17 +140,3 @@ newmtl 16___Default
 	Ke 0.0000 0.0000 0.0000
 	map_Ka vozen4.jpg
 	map_Kd vozen4.jpg
-
-newmtl 14___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.5882 0.5882 0.5882
-	Kd 0.5882 0.5882 0.5882
-	Ks 0.0000 0.0000 0.0000
-	Ke 0.0000 0.0000 0.0000
-	map_Ka vozen2.jpg
-	map_Kd vozen2.jpg
