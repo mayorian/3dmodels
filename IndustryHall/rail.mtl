@@ -1,5 +1,5 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 12.05.2019 01:39:29
+# File Created: 12.05.2019 01:49:28
 
 newmtl 08___Default
 	Ns 10.0000
@@ -14,20 +14,6 @@ newmtl 08___Default
 	Ke 0.0000 0.0000 0.0000
 	map_Ka btn.jpg
 	map_Kd btn.jpg
-
-newmtl 10___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.5882 0.5882 0.5882
-	Kd 0.5882 0.5882 0.5882
-	Ks 0.0000 0.0000 0.0000
-	Ke 0.0000 0.0000 0.0000
-	map_Ka pipe.jpg
-	map_Kd pipe.jpg
 
 newmtl 09___Default
 	Ns 10.0000
@@ -71,34 +57,6 @@ newmtl 07___Default
 	map_Ka mtl1.jpg
 	map_Kd mtl1.jpg
 
-newmtl 11___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.5882 0.5882 0.5882
-	Kd 0.5882 0.5882 0.5882
-	Ks 0.0000 0.0000 0.0000
-	Ke 0.0000 0.0000 0.0000
-	map_Ka metals.jpg
-	map_Kd metals.jpg
-
-newmtl 13___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.5882 0.5882 0.5882
-	Kd 0.5882 0.5882 0.5882
-	Ks 0.0000 0.0000 0.0000
-	Ke 0.0000 0.0000 0.0000
-	map_Ka lino.jpg
-	map_Kd lino.jpg
-
 newmtl 14___Default
 	Ns 10.0000
 	Ni 1.5000
@@ -126,3 +84,31 @@ newmtl 15___Default
 	Ke 0.0000 0.0000 0.0000
 	map_Ka metalft.jpg
 	map_Kd metalft.jpg
+
+newmtl 11___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka metals.jpg
+	map_Kd metals.jpg
+
+newmtl 10___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka pipe.jpg
+	map_Kd pipe.jpg
