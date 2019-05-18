@@ -1,59 +1,5 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 18.05.2019 01:53:40
-
-newmtl 06___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.5882 0.5882 0.5882
-	Kd 0.5882 0.5882 0.5882
-	Ks 0.0000 0.0000 0.0000
-	Ke 0.0000 0.0000 0.0000
-	map_Ka w7.jpg
-	map_Kd w7.jpg
-
-newmtl 08___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.0353 0.0353 0.0353
-	Kd 0.0353 0.0353 0.0353
-	Ks 0.0000 0.0000 0.0000
-	Ke 0.0000 0.0000 0.0000
-
-newmtl 07___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.5882 0.5882 0.5882
-	Kd 0.5882 0.5882 0.5882
-	Ks 0.0000 0.0000 0.0000
-	Ke 0.0000 0.0000 0.0000
-	map_Ka flor.jpg
-	map_Kd flor.jpg
-
-newmtl 05___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.5882 0.5882 0.5882
-	Kd 0.5882 0.5882 0.5882
-	Ks 0.0000 0.0000 0.0000
-	Ke 0.0000 0.0000 0.0000
-	map_Ka w4.jpg
-	map_Kd w4.jpg
+# File Created: 18.05.2019 02:11:49
 
 newmtl 02___Default
 	Ns 10.0000
@@ -79,6 +25,20 @@ newmtl wire_148177027
 	Kd 0.5804 0.6941 0.1059
 	Ks 0.3500 0.3500 0.3500
 
+newmtl 03___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka w5.jpg
+	map_Kd w5.jpg
+
 newmtl 04___Default
 	Ns 10.0000
 	Ni 1.5000
@@ -93,7 +53,7 @@ newmtl 04___Default
 	map_Ka w6.jpg
 	map_Kd w6.jpg
 
-newmtl 03___Default
+newmtl 06___Default
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -104,8 +64,8 @@ newmtl 03___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka w5.jpg
-	map_Kd w5.jpg
+	map_Ka w7.jpg
+	map_Kd w7.jpg
 
 newmtl 09___Default
 	Ns 10.0000
