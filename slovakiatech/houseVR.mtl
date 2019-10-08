@@ -1,5 +1,5 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 07.10.2019 23:04:50
+# File Created: 08.10.2019 22:25:27
 
 newmtl 01___Default
 	Ns 10.0000
@@ -73,18 +73,6 @@ newmtl FrontColor
 	Ks 0.3300 0.3300 0.3300
 	Ke 0.0000 0.0000 0.0000
 
-newmtl 02___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.4549 0.3333 0.1725
-	Kd 0.4549 0.3333 0.1725
-	Ks 0.0000 0.0000 0.0000
-	Ke 0.0000 0.0000 0.0000
-
 newmtl _4
 	Ns 43.2193
 	Ni 1.5000
@@ -109,6 +97,18 @@ newmtl _Translucent_Glass_Sky_Reflection_2
 	Ks 0.3300 0.3300 0.3300
 	Ke 0.0000 0.0000 0.0000
 
+newmtl 02___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4549 0.3333 0.1725
+	Kd 0.4549 0.3333 0.1725
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
 newmtl _Translucent_Glass_Sky_Reflection_4
 	Ns 43.2193
 	Ni 1.5000
@@ -131,18 +131,6 @@ newmtl _13
 	Ka 0.0000 0.0000 0.0000
 	Kd 0.3569 0.3569 0.3569
 	Ks 0.3300 0.3300 0.3300
-	Ke 0.0000 0.0000 0.0000
-
-newmtl 05___Default
-	Ns 10.0000
-	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
-	illum 2
-	Ka 0.2078 0.1490 0.0745
-	Kd 0.2078 0.1490 0.0745
-	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
 
 newmtl 08___Default
