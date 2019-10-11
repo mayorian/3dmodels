@@ -1,0 +1,157 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LIRKIS G-CVE platform</title>
+    <meta name="description" content="Basic Example — Networked-Aframe">
+
+     <!--AFRAME release + extras with dynamic functionality-->
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>  
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v5.0.0/dist/aframe-extras.js"></script>
+    <script src="/dist/movement-controls.js"></script>
+    
+    <script src="https://unpkg.com/networked-aframe@^0.6.0/dist/networked-aframe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>   
+    <script src="easyrtc/easyrtc.js"></script>
+      
+    <script src="https://unpkg.com/aframe-randomizer-components@^3.0.1/dist/aframe-randomizer-components.min.js"></script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.5/dist/aframe-particle-system-component.min.js"></script>
+    <script src="https://rawgit.com/urish/aframe-camera-events/master/index.js"></script>
+    <script src="/js/spawn-in-circle.component.js"></script>
+    <script src="/js/getThePosition.js"></script>
+    
+    
+    <!--<script src="/js/spawner.component.js"></script>-->   
+    <!--<script src="/js/toogle-ownership.component.js"></script>-->
+     <!--<script src="/js/userID.js"></script>-->   
+    
+  </head>
+  <body>
+    <a-scene networked-scene="
+      room: basic;
+      debug: true;
+                              
+    ">
+      <a-assets>
+
+        
+        <a-asset-item id="crate-obj" src="https://raw.githubusercontent.com/mayorian/3dmodels/master/cveposter/room.obj"></a-asset-item>
+        <a-asset-item id="crate-mtl" src="https://raw.githubusercontent.com/mayorian/3dmodels/master/cveposter/room.mtl"></a-asset-item>
+        
+        <a-asset-item id="ctr-obj" src="https://raw.githubusercontent.com/mayorian/3dmodels/master/cveposter/ctr.obj"></a-asset-item>
+        <a-asset-item id="ctr-mtl" src="https://raw.githubusercontent.com/mayorian/3dmodels/master/cveposter/ctr.mtl"></a-asset-item>
+        
+        <a-asset-item id="hmd-obj" src="https://cdn.glitch.com/3b32ac74-0a36-49d9-b1a8-62b6bbd17c47%2Fhmd.obj?1553303987336"></a-asset-item>
+        <a-asset-item id="hmd-mtl" src="https://cdn.glitch.com/3b32ac74-0a36-49d9-b1a8-62b6bbd17c47%2Fhmd.mtl?1553304027663"></a-asset-item>
+        
+        
+        <img id="sky" src="https://cdn.glitch.com/166af01a-d529-4908-885b-73f3af1b26d9%2Fatd.jpg?1553305334999" crossorigin="anonymous" />
+        
+
+        <!-- Templates -->
+
+          <!-- Avatar -->
+            <template id="avatar-template">
+              <a-entity class="avatar">
+                        <a-obj-model src="#hmd-obj" mtl="#hmd-mtl" scale="1 1 1">
+                              <a-cylinder width="0.1" height="2.7" position="0 0 -2.0" rotation="90 0 0" scale="0.01 1 0.01" opacity="0.5" color="cyan">
+                              </a-cylinder>
+                        </a-obj-model>
+                        <a-sphere class="head" color="#A0A0B2" scale="0.4 0.4 0.4" position="0 -0.08 0" random-color opacity="0.5"></a-sphere>
+                        <a-text font="https://cdn.aframe.io/fonts/Exo2Bold.fnt" rotation="0 180 0" position="0 0.6 0" color="#0000FF" align="center" scale="0.5 0.5 0.5" value="LIRKIS USER"></a-text>       
+              </a-entity>
+            </template>
+   <!-- Body -->
+        <template id="avatar-body">
+              <a-entity class="avatar">
+                        
+                              <a-octahedron width="0.1" height="2.7" position="0 0.8 0" rotation="0 0 180" scale="0.3 1 0.3" opacity="0.3">
+                              </a-octahedron>
+          </a-entity>
+       </template>
+
+
+        <!-- /Templates -->
+      </a-assets>
+       <!--<a-entity tracked-controls="controller: 0; idPrefix: OpenVR"></a-entity>-->
+      <!-- movement controls-->
+
+       <a-entity           
+                 id="rig" 
+                 networked="template:#avatar-body;attachTemplateToLocal:false;"  
+          movement-controls 
+        position-listener
+                 position="0 0 0"
+         >
+        <a-entity
+             id="player"
+            networked="template:#avatar-template;attachTemplateToLocal:false;"  
+            camera  
+            position="0 1.6 0"
+            look-controls="pointerLockEnabled:false"    
+            >
+                
+              <a-sphere class="head"
+              visible="true"
+              random-color
+              get-the-position
+              ></a-sphere>
+          </a-entity>
+      </a-entity> 
+
+      
+      <a-obj-model src="#crate-obj" mtl="#crate-mtl" shadow="receive: true; cast: true" position="0 0 0" scale="1 1 1"></a-obj-model>       
+      
+      <a-obj-model src="#ctr-obj" mtl="#ctr-mtl" shadow="receive: true; cast: true" position="0 0 0" rotation="0 -34.080 0" scale="10 10 10"></a-obj-model>       
+      
+     
+       <a-text value="LIRKIS G-CVE" lirkis-text-component position="-4.863 1.995 -4.907" rotation="0.000 45.724 0.001" color="black" align="center" font="https://cdn.aframe.io/fonts/Exo2Bold.fnt" scale="2 2 1"></a-text>
+      
+      
+       <a-entity light="color: #9ff7fb; intensity: 0.2; type: ambient;" visible=""></a-entity>
+
+
+        <a-entity light="type: point; castShadow:true; color:#ffffff; intensity: 2; distance: 6; decay: 1"
+                  position="0.050 2.382 1.172"></a-entity>
+        
+      <!-- <a-entity light="type: point; castShadow:true; color:#9ff7fb; intensity: 3.260; distance: 3; decay: 1"
+                  position="0.050 2.382 -1.338"></a-entity>-->
+      
+      
+      <a-sky color="black" rotation="0 -90 0"></a-sky>
+    </a-scene>
+
+    
+     <script>
+       
+      // On mobile remove elements that are resource heavy
+      //var isMobile = AFRAME.utils.device.isMobile();
+
+      //if (isMobile) {
+        //var particles = document.getElementById('particles');
+        //particles.parentNode.removeChild(particles);
+        
+        // Define custom schema for syncing avatar color, set by random-color
+    
+      
+      //}
+
+      // Define custom schema for syncing avatar color, set by random-color
+      NAF.schemas.add({
+        template: '#avatar-template',
+        components: [
+          'position',
+          'rotation',
+          {
+            selector: '.head',
+            component: 'material',
+            property: 'color'
+          }
+        ]
+      });
+       //check this
+       //window.onload(console.log("Beginning");
+      
+    </script>
+  </body>
+</html>
