@@ -1,0 +1,44 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 21.08.2020 20:16:20
+
+newmtl _KCOWSMUGK1VHR2XD8L8F6X2W9ow_excavator
+	Ns 9.8492
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6980 0.6980 0.6980
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ow_excavator.jpg
+	map_Kd ow_excavator.jpg
+
+newmtl _KCOWSMUGK1VHR2XD8L8F6X2W9ow_excavator1
+	Ns 9.8492
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6980 0.6980 0.6980
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ow_excavator.jpg
+	map_Kd ow_excavator.jpg
+
+newmtl _KCOWSMUGK1VHR2XD8L8F6X2W9glas
+	Ns 9.8492
+	Ni 1.5000
+	d 0.3000
+	Tr 0.7000
+	Tf 0.3000 0.3000 0.3000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6980 0.6980 0.6980
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka glas.jpg
+	map_Kd glas.jpg
