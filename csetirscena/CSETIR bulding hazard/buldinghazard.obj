@@ -1,5 +1,5 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 22.09.2020 16:50:46
+# File Created: 22.09.2020 16:58:44
 
 mtllib buldinghazard.mtl
 
@@ -365,7 +365,7 @@ vt 1.6045 2.9175 0.0000
 # 20 texture coords
 
 g Mesh7
-usemtl Concrete_Aggregate_Smoke
+usemtl Material__26
 s off
 f 49/121/31 50/122/31 51/123/31 52/124/31 
 f 50/125/32 53/126/32 54/127/32 51/128/32 
@@ -1008,7 +1008,7 @@ vt 1.6045 2.9175 0.0000
 # 20 texture coords
 
 g Mesh16
-usemtl Concrete_Aggregate_Smoke
+usemtl Material__26
 s off
 f 153/365/76 154/366/76 155/367/76 156/368/76 
 f 154/369/77 157/370/77 158/371/77 155/372/77 
@@ -2488,7 +2488,7 @@ vt 14.2501 41.1398 0.0000
 # 52 texture coords
 
 g Mesh43
-usemtl _Concrete_Aggregate_Smoke_2
+usemtl Material__26
 s off
 f 369/905/211 370/906/211 371/907/211 
 f 370/906/211 369/905/211 372/908/211 
@@ -2735,7 +2735,7 @@ vt 1.6045 2.9175 0.0000
 # 20 texture coords
 
 g Mesh47
-usemtl Concrete_Aggregate_Smoke
+usemtl Material__26
 s off
 f 417/1017/231 418/1018/231 419/1019/231 420/1020/231 
 f 418/1021/232 421/1022/232 422/1023/232 419/1024/232 
@@ -2788,7 +2788,7 @@ vt 1.6045 2.9175 0.0000
 # 20 texture coords
 
 g Mesh48
-usemtl Concrete_Aggregate_Smoke
+usemtl Material__26
 s off
 f 425/1037/236 426/1038/236 427/1039/236 428/1040/236 
 f 426/1041/237 429/1042/237 430/1043/237 427/1044/237 
@@ -3000,7 +3000,7 @@ vt 1.6045 2.9175 0.0000
 # 20 texture coords
 
 g Mesh52
-usemtl Concrete_Aggregate_Smoke
+usemtl Material__26
 s off
 f 457/1117/256 458/1118/256 459/1119/256 460/1120/256 
 f 458/1121/257 461/1122/257 462/1123/257 459/1124/257 
