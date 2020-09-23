@@ -1,127 +1,110 @@
 {
     "asset": {
-        "generator": "FBX2glTF v0.9.7",
-        "version": "2.0"
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
     },
-    "scene": 0,
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 25,
+            "type": "VEC3",
+            "max": [
+                10.092100143432618,
+                10.092100143432618,
+                4.856805324554443
+            ],
+            "min": [
+                -10.092100143432618,
+                -10.092100143432618,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 25,
+            "type": "VEC3",
+            "max": [
+                0.2136749029159546,
+                0.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                -0.23094405233860017,
+                0.9729671478271484
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 72,
+            "type": "SCALAR",
+            "max": [
+                24
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
     "buffers": [
         {
-            "byteLength": 2144,
-            "uri": "buffer.bin"
+            "byteLength": 888,
+            "uri": "result.bin"
         }
     ],
     "bufferViews": [
         {
             "buffer": 0,
-            "byteLength": 384,
             "byteOffset": 0,
+            "byteLength": 300,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 300,
+            "byteLength": 300,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 600,
+            "byteLength": 288,
             "target": 34963
-        },
-        {
-            "buffer": 0,
-            "byteLength": 660,
-            "byteOffset": 384,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteLength": 660,
-            "byteOffset": 1044,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteLength": 440,
-            "byteOffset": 1704,
-            "target": 34962
         }
-    ],
-    "scenes": [
-        {
-            "name": "Root Scene",
-            "nodes": [
-                0
-            ]
-        }
-    ],
-    "accessors": [
-        {
-            "componentType": 5123,
-            "type": "SCALAR",
-            "count": 192,
-            "bufferView": 0,
-            "byteOffset": 0
-        },
-        {
-            "componentType": 5126,
-            "type": "VEC3",
-            "count": 55,
-            "bufferView": 1,
-            "byteOffset": 0,
-            "min": [
-                -0.0988805741071701,
-                -0.100279822945595,
-                0.0
-            ],
-            "max": [
-                0.0988805741071701,
-                0.100279822945595,
-                0.0515677928924561
-            ]
-        },
-        {
-            "componentType": 5126,
-            "type": "VEC3",
-            "count": 55,
-            "bufferView": 2,
-            "byteOffset": 0
-        },
-        {
-            "componentType": 5126,
-            "type": "VEC2",
-            "count": 55,
-            "bufferView": 3,
-            "byteOffset": 0
-        }
-    ],
-    "samplers": [
-        {}
     ],
     "materials": [
         {
             "name": "01 - Default",
-            "alphaMode": "OPAQUE",
-            "extras": {
-                "fromFBX": {
-                    "shadingModel": "Phong",
-                    "isTruePBR": false
-                }
-            },
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
-                    0.588235318660736,
-                    0.588235318660736,
-                    0.588235318660736,
+                    0.5882353186607361,
+                    0.5882353186607361,
+                    0.5882353186607361,
                     1.0
                 ],
-                "metallicFactor": 0.400000005960464,
-                "roughnessFactor": 0.70710676908493
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.959750771522522
             }
         }
     ],
     "meshes": [
         {
-            "name": "Plane003",
+            "name": "Plane001",
             "primitives": [
                 {
-                    "material": 0,
                     "mode": 4,
+                    "material": 0,
+                    "indices": 2,
                     "attributes": {
-                        "NORMAL": 2,
-                        "POSITION": 1,
-                        "TEXCOORD_0": 3
-                    },
-                    "indices": 0
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
                 }
             ]
         }
@@ -129,45 +112,69 @@
     "nodes": [
         {
             "name": "RootNode",
-            "translation": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scale": [
-                1.0,
-                1.0,
-                1.0
-            ],
             "children": [
                 1
             ]
         },
         {
-            "name": "Plane003",
-            "translation": [
-                -7.92646369518479e-06,
+            "name": "Plane001_$AssimpFbx$_Translation",
+            "matrix": [
+                1.0,
                 0.0,
-                -4.48832506663166e-05
-            ],
-            "rotation": [
-                -0.70710676908493,
-                -0.0,
                 0.0,
-                0.70710676908493
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.04767465591430664,
+                0.0,
+                -0.09102487564086914,
+                1.0
             ],
-            "scale": [
-                0.100000001490116,
-                0.100000001490116,
-                0.100000001490116
+            "children": [
+                2
+            ]
+        },
+        {
+            "name": "Plane001_$AssimpFbx$_PreRotation",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -4.371138828673793e-8,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -4.371138828673793e-8,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
             ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "Plane001",
             "mesh": 0
         }
-    ]
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
 }
